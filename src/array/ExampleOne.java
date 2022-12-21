@@ -10,7 +10,7 @@ public class ExampleOne {
 
         int i;
 
-        for ( i = 0; i < 11; i++) {
+        for ( i = 1; i <= 10; i++) {
             numbers[i] = i;
             System.out.println("This is sample[" + i + "]: " + numbers[i]);
         }
